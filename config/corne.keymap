@@ -18,61 +18,73 @@
             compatible = "zmk,behavior-mod-morph";
             bindings = <&kp MINUS>, <&kp F1>;
             mods = <(MOD_LALT|MOD_RALT)>;
+            #binding-cells = <0>;
         };
         N1_F2: f2_key {
             compatible = "zmk,behavior-mod-morph";
             bindings = <&kp N1>, <&kp F2>;
             mods = <(MOD_LALT|MOD_RALT)>;
+            #binding-cells = <0>;
         };
         N2_F3: f3_key {
             compatible = "zmk,behavior-mod-morph";
             bindings = <&kp N2>, <&kp F3>;
             mods = <(MOD_LALT|MOD_RALT)>;
+            #binding-cells = <0>;
         };
         N3_F4: f4_key {
             compatible = "zmk,behavior-mod-morph";
             bindings = <&kp N3>, <&kp F4>;
             mods = <(MOD_LALT|MOD_RALT)>;
+            #binding-cells = <0>;
         };
         N4_F5: f5_key {
             compatible = "zmk,behavior-mod-morph";
             bindings = <&kp N4>, <&kp F5>;
             mods = <(MOD_LALT|MOD_RALT)>;
+            #binding-cells = <0>;
         };
         N5_F6: f6_key {
             compatible = "zmk,behavior-mod-morph";
             bindings = <&kp N5>, <&kp F6>;
             mods = <(MOD_LALT|MOD_RALT)>;
+            #binding-cells = <0>;
         };
         N6_F7: f7_key {
             compatible = "zmk,behavior-mod-morph";
             bindings = <&kp N6>, <&kp F7>;
             mods = <(MOD_LALT|MOD_RALT)>;
+            #binding-cells = <0>;
         };
         N7_F8: f8_key {
             compatible = "zmk,behavior-mod-morph";
             bindings = <&kp N7>, <&kp F8>;
             mods = <(MOD_LALT|MOD_RALT)>;
+            #binding-cells = <0>;
         };
         N8_F9: f9_key {
             compatible = "zmk,behavior-mod-morph";
             bindings = <&kp N8>, <&kp F9>;
             mods = <(MOD_LALT|MOD_RALT)>;
+            #binding-cells = <0>;
         };
         N9_F10: f10_key {
             compatible = "zmk,behavior-mod-morph";
             bindings = <&kp N9>, <&kp F10>;
             mods = <(MOD_LALT|MOD_RALT)>;
+            #binding-cells = <0>;
         };
         N0_F11: f11_key {
             compatible = "zmk,behavior-mod-morph";
             bindings = <&kp N0>, <&kp F11>;
             mods = <(MOD_LALT|MOD_RALT)>;
+            #binding-cells = <0>;
         };
         BSLH_F12: f12_key {
             compatible = "zmk,behavior-mod-morph";
             bindings = <&kp BSLH>, <&kp F12>;
             mods = <(MOD_LALT|MOD_RALT)>;
+            #binding-cells = <0>;
         };
     };
 
