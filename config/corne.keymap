@@ -75,7 +75,7 @@
             mods = <(MOD_LALT|MOD_RALT)>;
         };
     };
-};
+
 
         keymap {
                 compatible = "zmk,keymap";
