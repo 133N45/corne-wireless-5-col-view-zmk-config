@@ -124,8 +124,8 @@
 
                 raise_layer {
 // ---------------------------------------------------------------------------------------------------------
-// | 1! |  2@ |  3# |  4$ |  5% |                                          |  6^ |  7& |  8* |  9(  |  0)  |
-// | -_ |  =+ |  {  |  [  |  (  |                                          |  )  |  ]  |  }  |  /?  |  \|  |
+// | 1! |  2@ |  3# |  4$ |  5% | some symbols are repeating (SHIFT)       |  6^ |  7& |  8* |  9(  |  0)  |
+// | -_ |  =+ |  {  |  [  |  (  | should be reworked                       |  )  |  ]  |  }  |  /?  |  \|  |
 // | `~ |     |     |     |  :  |                                          |  ;  |     |     |      |      |
 //            | GUI | ESC | TAB |                                          | ENT |     | DEL |
                         display-name = "Raise";
@@ -133,7 +133,7 @@
 
    &N1_F2    &N2_F3    &N3_F4    &N4_F5    &N5_F6                          &N6_F7    &N7_F8    &N8_F9   &N9_F10  &N0_F11
    &MINUS_F1 &kp EQUAL &kp LBRC  &kp LBKT  &kp LPAR                        &kp RPAR  &kp RBKT  &kp RBRC &kp FSLH &BSLH_F12
-   &kp TILDE &trans    &trans    &trans    &kp COLON                       &kp SEMI  &kp       &trans   &trans   &trans
+   &kp GRAVE &trans    &trans    &trans    &kp COLON                       &kp SEMI  &trans    &trans   &trans   &trans
                        &kp LGUI  &kp ESC   &kp TAB                         &kp RET   &trans    &kp DEL
                         >;
                 };
